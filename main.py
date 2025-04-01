@@ -7,7 +7,7 @@ import base64
 # --- CONFIG --- #
 CLIENT_ID = "your_client_id" # Go to https://developer.spotify.com/dashboard
 CLIENT_SECRET = "your_client_secret"
-REFRESH_TOKEN = "your_refresh_token" # Run token_gen.py
+REFRESH_TOKEN = "your_refresh_token" # Generate a Spotify Refresh Token
 
 PUSHOVER_USER_KEY = "your_pushover_user_key"
 PUSHOVER_API_TOKEN = "your_pushover_api_token"
