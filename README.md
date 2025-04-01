@@ -55,6 +55,8 @@ A lightweight Python bot that automatically monitors one or multiple Spotify pla
    - `Client Secret`
 3. Under Redirect URIs, add:
    - `http://localhost:8080/callback`
+4. Under API/SDKs, select:
+   - `Web API`
 
 ### 2️⃣ Create a Pushover Application
 1. Go to [Pushover Apps](https://pushover.net/apps/build)
