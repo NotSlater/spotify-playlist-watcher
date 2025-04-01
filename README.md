@@ -68,24 +68,21 @@ A lightweight Python bot that automatically monitors one or multiple Spotify pla
 - `User Key`
 - `API Token/Key`
 
-### 3️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/playlist-watcher.git
-cd playlist-watcher
-```
-
-### 4️⃣ Generate Spotify Refresh Token
+### 3️⃣ Generate Spotify Refresh Token
 Follow the prompts to generate a permanent refresh token.  
 This prevents you from having to generate a new Spotify API key every hour.
 ```bash
 python refresh_token_generator.py
 ```
-### 5️⃣ Configure playlist_watcher.py
-Fill these fields:
+
+### 4️⃣ Fork the Repository
+1. Fork this repository to your own GitHub account
+2. Fill these fields:
 ```bash
 CLIENT_ID = "your_client_id"
 CLIENT_SECRET = "your_client_secret"
 REFRESH_TOKEN = "your_refresh_token"
+
 PUSHOVER_USER_KEY = "your_pushover_user_key"
 PUSHOVER_API_TOKEN = "your_pushover_api_token"
 
@@ -100,3 +97,7 @@ SPOTIFY_PLAYLISTS = {
     "Playlist 2": "playlist_id_2"
 }
 ```
+
+### 5️⃣ Connect to Railway
+1. Sign into [Railway](https://railway.com) using github
+3. Select the forked repo in Railway
