@@ -37,7 +37,7 @@ A lightweight Python bot that automatically monitors one or multiple Spotify pla
 |------|---------|
 | Python | Core programming language |
 | Spotify Web API | Playlist data access |
-| Pushover API | Push notifications |
+| Pushover API | Mobile Push notifications |
 | Railway | Cloud hosting |
 | JSON | Local data storage (playlist snapshots) |
 
