@@ -5,12 +5,12 @@ import os
 import base64
 
 # --- CONFIG --- #
-CLIENT_ID = "ceb2d377d74d4f71be398bca71f06aab"
-CLIENT_SECRET = "27cf316152084829aae4eaa0caeb715e"
-REFRESH_TOKEN = "AQBpmJu1wPZqpU_FKOTg3zbynhCW7IGtTMd_zP6QUPVCkN2O-RTn0pB4SDJ3ko0w4eCXN8t6v-g6a_Iwiv2wU3zlhxdBz4yi2ZDrpV1UB-0ejPX8qXHVX68OTiOsOy9TyOE"
+CLIENT_ID = "ENTER YOUR SPOTIFY CLIENT ID HERE" # Go to https://developer.spotify.com/dashboard
+CLIENT_SECRET = "ENTER YOUR SPOTIFY CLIENT SECRET HERE" # Go to the link above ^^^^^^^^^^^^^^^
+REFRESH_TOKEN = "ENTER YOUR REFRESH TOKEN FROM REFRESH_TOKEN_GEN.PY" # Run Token_Gen.py and follow the instructions
 
-PUSHOVER_USER_KEY = "u5ms4u3kroaxc5o137vyjduh75dny5"
-PUSHOVER_API_TOKEN = "ak49tjwy5k3r1gcjueerxjsdytzydu"
+PUSHOVER_USER_KEY = "ENTER YOUR USER KEY HERE"
+PUSHOVER_API_TOKEN = "ENTER YOUR API TOKEN HERE"
 
 SPOTIFY_PLAYLISTS = {
     "Playlist 1": "5JuDEwARqrHwBTctDA85lL",
