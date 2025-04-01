@@ -12,9 +12,6 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation & Setup](#installation--setup)
-- [Example Notification](#example-notification)
-- [Author](#author)
-- [License](#license)
 
 ---
 
