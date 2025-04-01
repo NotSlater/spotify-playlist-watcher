@@ -62,7 +62,7 @@ A lightweight Python bot that automatically monitors one or multiple Spotify pla
    - `Client Secret`
 
 ### 2️⃣ Create a Pushover Application
-1. Go to [Pushover Apps](https://pushover.net/apps/build)
+1. Download [Pushover](https://pushover.net/apps/build) on your device
 2. Create a new app
 3. Copy your:
 - `User Key`
@@ -72,7 +72,7 @@ A lightweight Python bot that automatically monitors one or multiple Spotify pla
 Follow the prompts to generate a permanent refresh token.  
 This prevents you from having to generate a new Spotify API key every hour.
 ```bash
-python refresh_token_generator.py
+python spotify_refresh_token_generator.py
 ```
 
 ### 4️⃣ Fork the Repository
@@ -100,4 +100,5 @@ SPOTIFY_PLAYLISTS = {
 
 ### 5️⃣ Connect to Railway
 1. Sign into [Railway](https://railway.com) using github
-3. Select the forked repo in Railway
+2. Select the forked repo in Railway
+3. Let it run
