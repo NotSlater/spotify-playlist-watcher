@@ -50,13 +50,16 @@ A lightweight Python bot that automatically monitors one or multiple Spotify pla
 
 ### 1️⃣ Create a Spotify Developer Application
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-2. Create a new app and copy:
-   - `Client ID`
-   - `Client Secret`
+2. Create a new app and fill it in:
+   - `Trackify`
+   - `Tracks playlists on psotify`
 3. Under Redirect URIs, add:
    - `http://localhost:8080/callback`
 4. Under API/SDKs, select:
    - `Web API`
+2. Go to the app and hit settings and copy:
+   - `Client ID`
+   - `Client Secret`
 
 ### 2️⃣ Create a Pushover Application
 1. Go to [Pushover Apps](https://pushover.net/apps/build)
