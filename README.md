@@ -17,7 +17,7 @@
 
 ## 📖 About
 
-A lightweight Python bot that automatically monitors one or multiple Spotify playlists and sends you instant push notifications via Pushover when new songs are added.
+A lightweight Python bot that automatically monitors one or more Spotify playlists and sends you instant push notifications via Pushover when new songs are added.
 
 ---
 
