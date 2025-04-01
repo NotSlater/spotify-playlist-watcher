@@ -5,19 +5,18 @@ import os
 import base64
 
 # --- CONFIG --- #
-CLIENT_ID = "ENTER YOUR SPOTIFY CLIENT ID HERE" # Go to https://developer.spotify.com/dashboard
-CLIENT_SECRET = "ENTER YOUR SPOTIFY CLIENT SECRET HERE" # Go to the link above ^^^^^^^^^^^^^^^
-REFRESH_TOKEN = "ENTER YOUR REFRESH TOKEN FROM REFRESH_TOKEN_GEN.PY" # Run Token_Gen.py and follow the instructions
+CLIENT_ID = "your_client_id" # Go to https://developer.spotify.com/dashboard
+CLIENT_SECRET = "your_client_secret"
+REFRESH_TOKEN = "your_refresh_token" # Run token_gen.py
 
-PUSHOVER_USER_KEY = "ENTER YOUR USER KEY HERE"
-PUSHOVER_API_TOKEN = "ENTER YOUR API TOKEN HERE"
+PUSHOVER_USER_KEY = "your_pushover_user_key"
+PUSHOVER_API_TOKEN = "your_pushover_api_token"
 
 SPOTIFY_PLAYLISTS = {
-    "Playlist 1": "5JuDEwARqrHwBTctDA85lL",
-    "Playlist 2": "5j8oVJtXvZqa01lVNM7vEe"
+    "My Playlist": "your_playlist_id"
 }
 
-CHECK_INTERVAL = 600  # 10 minutes
+CHECK_INTERVAL = 600  # Default: 10 minutes
 
 DATA_FILE = "/data/playlist_data.json"
 
@@ -112,7 +111,7 @@ def main():
         
             if new_tracks:
                 message = f"🎵 {len(new_tracks)} new song(s) added to {name}:\n"
-                #message += "\n".join([f"- {t['name']} by {t['artist']}" for t in new_tracks])
+                message += "\n".join([f"- {t['name']} by {t['artist']}" for t in new_tracks]) # You may choose to comment this out
                 print(message)
                 send_pushover_notification(message)
             else:
