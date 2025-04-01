@@ -70,7 +70,7 @@ cd playlist-watcher
 ```
 
 ### 4️⃣ Generate Spotify Refresh Token
-Follow the prompts to generate a permanent refresh token. 
+Follow the prompts to generate a permanent refresh token.  
 This prevents you from having to generate a new Spotify API key every hour.
 ```bash
 python refresh_token_generator.py
