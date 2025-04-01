@@ -16,7 +16,11 @@ SPOTIFY_PLAYLISTS = {
     "My Playlist": "your_playlist_id" # https://open.spotify.com/playlist/your_playlist_id?si=****************
 }
 
-CHECK_INTERVAL = 600  # Default: 10 minutes
+CHECK_INTERVAL = 900  
+# 15 Minutes [Safe & Reliable] (Default)
+# 10 Minutes [Balances Safety & Speed]
+# 5 Minutes [Risky] (May exceed Railway's free usage plan in < 1 Month)
+# !! Do not set to less than 5 minutes unless you have an upgraded railway plan !!
 
 DATA_FILE = "playlist_data.json"
 
