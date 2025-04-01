@@ -1,4 +1,4 @@
-# 🎵 Spotify Playlist Watcher Bot
+# 🎵 Trackify - A Spotify Playlist Tracking Bot
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Spotify Web API](https://img.shields.io/badge/Spotify-API-1DB954?logo=spotify&logoColor=white)](https://developer.spotify.com/)
