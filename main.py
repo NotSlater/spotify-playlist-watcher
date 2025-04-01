@@ -13,12 +13,12 @@ PUSHOVER_USER_KEY = "your_pushover_user_key"
 PUSHOVER_API_TOKEN = "your_pushover_api_token"
 
 SPOTIFY_PLAYLISTS = {
-    "My Playlist": "your_playlist_id"
+    "My Playlist": "your_playlist_id" # https://open.spotify.com/playlist/your_playlist_id?si=****************
 }
 
 CHECK_INTERVAL = 600  # Default: 10 minutes
 
-DATA_FILE = "/data/playlist_data.json"
+DATA_FILE = "playlist_data.json"
 
 # --- FUNCTIONS --- #
 
